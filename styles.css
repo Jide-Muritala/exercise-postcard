@@ -30,4 +30,29 @@ body {
 
 .postcard-body {
 	display: flex;
+	font-size: 15px;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+	width: 200px;
+}
+
+input {
+	border: none;
+	border-bottom: grey;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: grey;
+	padding: 15px;
 }
